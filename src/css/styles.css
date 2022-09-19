@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #0074aa;
+    text-align: center;
+}
+.logo{
+    color: white;
+}
+.showingResults{
+    color: white;
+    text-align: left;
+}
+header input{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.active{
+    background-color: #0074aa;
+
+}
+.non-active{
+background-color: #00557c;
+}
+.mySlides{
+    width: 100%; 
+  }

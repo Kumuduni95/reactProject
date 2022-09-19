@@ -1,0 +1,123 @@
+.floweritem{
+    width: 33%; 
+    text-align: center;
+    float: left; 
+    margin: 2px;
+}
+.floweritem:hover{
+    width: 33%; 
+    text-align: center;
+    float: left; 
+    margin: 2px; 
+    cursor: pointer; 
+    background-color: rgb(245, 245, 245); 
+}
+.floweritem2{
+    width: 33%;  
+    text-align: center;
+    float: left; 
+    margin: 2px;
+}
+.floweritem3{
+    width: 49%;  
+    text-align: center;
+    float: left; 
+    margin: 2px;
+} 
+.imgtag{
+    width: 75%;
+    text-align: center;
+}
+.imgtag2{
+    width: 10%;
+    text-align: center;
+}
+.imgtag3{
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+.imgtag4{ 
+    width: 40%;
+    text-align: center;
+}
+.imgtag5{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.imgtag6{
+    float: left;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bhead{ 
+    text-align: center;
+    color: rgba(164, 112, 158, 0.813);
+}
+.grayhr{
+    color: rgb(255, 255, 255);
+}
+.itemTitle{
+    color: rgb(165, 126, 6);
+    font-weight:bolder;
+    background-color: rgb(236, 231, 219);
+    margin-left: 10px;
+}
+.row{
+    text-align: center;
+    padding-left: 25%;
+}
+.row2{
+    text-align: center;
+    padding-left: 10px;
+}
+.feedTitle{
+    color: rgba(165, 4, 146, 0.644);
+    font-family: "Playfair Display";
+    font-size: 18px;
+}
+.feedTitle:hover{
+    color: rgb(165, 126, 6);
+    font-family: "Playfair Display";
+    font-size: 18px;
+}
+.feedTitle2{
+    margin-left: 5px;
+    color: rgba(165, 4, 146, 0.644);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: left;
+}
+.feedTitle3{
+    margin-left: 5px;
+    color: rgb(131, 131, 131);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: left;
+}
+.feedTitle4{
+    margin-left: 5px;
+    color: rgb(131, 131, 131);
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: center;
+}
+.tbl{
+    width: 100%;
+    color: rgb(113, 113, 113);
+    font-size: 18px;
+    text-align: center;
+}
+.serviceitem{
+    width: 33%; 
+    text-align: center;
+    float: left; 
+    margin: 2px;
+}
+.cntctTitle{
+    font-weight: bold;
+    font-size: 26px; 
+}

@@ -7,13 +7,25 @@ import Arrangements3 from '../css/images/image0043.jpg';
 import Arrangements4 from '../css/images/image0044.jpg';
 import Arrangements5 from '../css/images/image0045.jpg';
 import Bunches from '../css/images/image003.jpg'; 
+import Bunches1 from '../css/images/image0031.jpg'; 
+import Bunches2 from '../css/images/image0032.jpg'; 
+import Bunches3 from '../css/images/image0033.jpg'; 
+import Bunches4 from '../css/images/image0034.png'; 
 import Bridal from '../css/images/image001.jpg'; 
 import Bridal1 from '../css/images/image0011.jpeg'; 
 import Bridal2 from '../css/images/image0012.png'; 
 import Bridal3 from '../css/images/image0013.jpeg'; 
 import Bridal4 from '../css/images/image0014.jpg'; 
 import Cakes from '../css/images/image005.jpg'; 
-import Special from '../css/images/image002.jpg'; 
+import Cakes1 from '../css/images/image0051.jpg'; 
+import Cakes2 from '../css/images/image0052.jpg'; 
+import Cakes3 from '../css/images/image0053.JPG'; 
+import Cakes4 from '../css/images/image0054.jpeg'; 
+import Special from '../css/images/image002.jpg';
+import Special1 from '../css/images/image0021.jpg';
+import Special2 from '../css/images/image0022.jpg';
+import Special3 from '../css/images/image0023.jpg';
+import Special4 from '../css/images/image0024.jpg'; 
 import TitleLogo from '../css/images/titlelogo.png';   
 import '../css/landing.css';
 
@@ -148,71 +160,71 @@ class Landing extends React.Component {
                             </div>
 
                             <div>
-                                <div className={this.state.Tile==='Special'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Special</h1>
-                                    <img src={Arrangements1} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Special'?'floweritem2':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Flower Heart</h1>
+                                    <img src={Special1} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 5000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Special'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Special</h1>
-                                    <img src={Arrangements2} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Special'?'floweritem2':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Pure Love</h1>
+                                    <img src={Special2} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 10000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Special'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Special</h1>
-                                    <img src={Arrangements3} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Special'?'floweritem2':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Choco Teddy</h1>
+                                    <img src={Special3} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 12000.00 <br></br>Contact Us For Details</h4>
                                 </div> 
-                                <div className={this.state.Tile==='Special'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Special</h1>
-                                    <img src={Arrangements3} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Special'?'floweritem2':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Surprice</h1>
+                                    <img src={Special4} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 29000.00 <br></br>Contact Us For Details</h4>
                                 </div>
                             </div> 
 
                             <div>
-                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Bunches</h1>
-                                    <img src={Arrangements1} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Sweet Beauty</h1>
+                                    <img src={Bunches1} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 4000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Bunches</h1>
-                                    <img src={Arrangements2} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Sweet Beauty 2</h1>
+                                    <img src={Bunches2} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 4000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Bunches</h1>
-                                    <img src={Arrangements3} alt="Bunches" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Sweet Beauty 3</h1>
+                                    <img src={Bunches3} alt="Bunches" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 4000.00 <br></br>Contact Us For Details</h4>
                                 </div> 
-                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Bunches</h1>
-                                    <img src={Arrangements3} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Bunches'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Baby Roses</h1>
+                                    <img src={Bunches4} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 5000.00 <br></br>Contact Us For Details</h4>
                                 </div>
                             </div> 
 
                             <div>
-                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Cakes</h1>
-                                    <img src={Arrangements1} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Who wants Choclate ?</h1>
+                                    <img src={Cakes1} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 9000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Cakes</h1>
-                                    <img src={Arrangements2} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Snow Deal</h1>
+                                    <img src={Cakes2} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 9000.00 <br></br>Contact Us For Details</h4>
                                 </div>
-                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Cakes</h1>
-                                    <img src={Arrangements3} alt="Bunches" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">CC Gateau</h1>
+                                    <img src={Cakes3} alt="Bunches" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 10000.00 <br></br>Contact Us For Details</h4>
                                 </div> 
-                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'} onClick={event => this.handleTileClick('Cakes')}>
-                                    <h1 className="itemTitle">Cakes</h1>
-                                    <img src={Arrangements3} alt="content" className="imgtag"/>
-                                    <h4 className="feedTitle">Our own unique <br></br>collection of delicacy</h4>
+                                <div className={this.state.Tile==='Cakes'?'floweritem':'nofloweritem'}  >
+                                    <h1 className="itemTitle">Sweet-Fruits</h1>
+                                    <img src={Cakes4} alt="content" className="imgtag"/>
+                                    <h4 className="feedTitle">LKR : 12000.00 <br></br>Contact Us For Details</h4>
                                 </div>
                             </div> 
                             

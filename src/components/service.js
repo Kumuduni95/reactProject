@@ -32,6 +32,7 @@ const service =(props)=>{
                     Please contact us if you find it difficult to add the same-day option.
                     </h4>
                     <table className="tbl">
+                    <thead>
                         <tr>
                             <th>
                                 City
@@ -40,6 +41,8 @@ const service =(props)=>{
                                 Charge (LKR)
                             </th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td>Colombo</td>
                             <td>1200</td>
@@ -64,6 +67,7 @@ const service =(props)=>{
                             <td>Nugegoda</td>
                             <td>500</td>
                         </tr>
+                    </tbody>
                     </table>
                 </div> 
                 <div className="serviceitem">

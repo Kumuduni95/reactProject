@@ -16,12 +16,7 @@ class Header extends React.Component{
             page : window.sessionStorage.getItem("page")
         }
     }
-     
-    homesty=()=>{
-        
-        
-        
-    }
+    
     handleClick = (param) => { 
         console.log(param);
         if(param === "home"){
